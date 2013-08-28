@@ -9,7 +9,7 @@
 #
 define php::extension::mongo(
   $php,
-  $version = '1.4.1'
+  $version = '1.4.3'
 ) {
   require php::config
   # Require php version eg. php::5_4_10
